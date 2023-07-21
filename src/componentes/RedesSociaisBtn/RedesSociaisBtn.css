@@ -1,0 +1,27 @@
+.content-redes-sociais{
+  display: flex;
+  margin-top: 35px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:25px;
+  z-index: 2;
+}
+#imgRedesSociais{
+  height: 40px;
+  border-radius: 50%;
+}
+#imgRedesSociais:hover{
+  height: 55px;
+  cursor: pointer;
+  box-shadow: 10px 10px 10px #21415F ;
+}
+.conteudo-automatico{
+  text-align: center;;
+  
+}
+#title-container-box{
+  font-size: 20pt;
+  color:#21415F;
+  font-weight: 500;
+}

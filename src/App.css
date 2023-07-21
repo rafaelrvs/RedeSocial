@@ -1,0 +1,8 @@
+.App{
+  position: relative;
+  background-color: rgb(205, 204, 204);
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}

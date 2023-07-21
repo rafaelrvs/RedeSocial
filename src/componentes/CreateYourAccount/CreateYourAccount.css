@@ -1,0 +1,111 @@
+.container-boxes-createAccount{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    top: 50%;
+    left: 50%;
+    justify-content: flex-start;
+    transform: translate(-50%,-50%);
+    height: 600px;
+    width: 1000px;
+    background-color: #fff;
+    border-radius:25px;
+    z-index: 2;
+  }
+  #two-box-create-account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 600px;
+    width: 400px;
+    border-radius: 25px;
+    background-color: #306684;
+  }
+  #container-createYorAccount-text-and-btn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    color: #fff;
+  }
+  #Wellcome{
+    font-size: 25pt;
+    font-weight: 500;
+  }
+  #content-CreateYourCount-Main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #title-Create-your-account{
+    font-weight: 500;
+   font-size: 25pt;
+    color:#21415F;
+  }
+  #redesSociaisCreateAccount{
+
+    height: 40px;
+    border-radius: 50%;
+
+  }
+  #redesSociaisCreateAccount:hover{
+    height: 55px;
+    box-shadow: 10px 10px 10px #21415F ;
+
+  }
+  #imgRedesSociaisCreateAccount-container{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .RedesSociais-CreateYourAccount{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  #btnUseYourAccont{
+    padding: 15px;
+    width: 200px;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #21415F;
+    border: 2px solid #fff;
+  }
+
+  #input-createYOurAccount{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+  }
+  #name-register{
+    height: 30px;
+    width: 300px;
+    border-radius: 25px;
+  }
+  #email-register{
+    height: 30px;
+    width: 300px;
+    border-radius: 25px;
+  }
+  #password-register{
+    height: 30px;
+    width: 300px;
+    border-radius: 25px;
+  }
+  #Btn-CreateAccount-Register{
+    padding: 15px;
+    width: 200px;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #21415F;
+    border: 2px solid #fff;
+  }

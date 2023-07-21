@@ -1,0 +1,80 @@
+.container-boxes{
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+  top: 50%;
+  left: 50%;
+  justify-content: flex-end;
+  transform: translate(-50%,-50%);
+  height: 600px;
+  width: 1000px;
+  background-color: #fff;
+  border-radius:25px;
+  z-index: 2;
+}
+#content-box-main{
+margin-top: 100px;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+#useyourEmail-text{
+  margin-top: 35px;
+
+  color: #21415F;
+
+}
+
+.two-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 600px;
+  width: 400px;
+  border-radius: 25px;
+  background-color: #306684;
+}
+.content-box{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+#btn-two-box-in-Login{
+  padding: 15px;
+  width: 200px;
+  background-color: #21415F;
+  border: #fff 2px solid;
+  color: #fff;
+  border-radius: 25px;
+  border: 2px solid #fff;
+}
+
+#title-two-box{
+  font-size: 25pt;
+  font-weight:500;
+  color: #fff;
+}
+#content-text-in-box{
+  color: #fff;
+}
+.container-input{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 35px;
+}
+
+#input-Email{
+  height: 30px;
+  width: 300px;
+  border-radius: 25px;
+}
+#input-Senha{
+  height: 30px;
+  width: 300px;
+  border-radius: 25px;
+}
+
