@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import RedesSociais from "../RedesSociaisBtn"
 import "./BackgroundBox.css"
 import CreateYourAccount from "../CreateYourAccount"
+import Botao from "../Botao"
 const BackgroundBox = () =>{
 const [apresentarCadastro,setApresentarCadastro ] = useState(false)
   const RegisterAccount = (event)=>{
@@ -18,11 +19,14 @@ const [apresentarCadastro,setApresentarCadastro ] = useState(false)
 
           <p id="useyourEmail-text">or use your email account</p>
           </div>
-          <div className="container-input">
+        
+            <section >
+              <form className="container-input" action="">
             <input id="input-Email" type="text" placeholder=" Email" />
- 
             <input id="input-Senha" type="password" placeholder=" Password" maxLength={8}/>
-          </div>
+              </form>
+            </section>
+        
       </div>
         <nav className='two-box'>
           <nav className="content-box">
@@ -34,9 +38,10 @@ const [apresentarCadastro,setApresentarCadastro ] = useState(false)
             </p>
             </div>
             <div>
-
-            <input onClick={RegisterAccount} id="btn-two-box-in-Login" type="submit" value="Sign up"></input>
-            </div>
+              <div onClick={RegisterAccount}>
+              <Botao >Sign up</Botao>
+              </div>
+             </div>
           </nav>
         </nav>
         {apresentarCadastro && <CreateYourAccount/>}

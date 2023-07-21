@@ -42,15 +42,6 @@ text-align: center;
   flex-direction: column;
   gap: 25px;
 }
-#btn-two-box-in-Login{
-  padding: 15px;
-  width: 200px;
-  background-color: #21415F;
-  border: #fff 2px solid;
-  color: #fff;
-  border-radius: 25px;
-  border: 2px solid #fff;
-}
 
 #title-two-box{
   font-size: 25pt;
@@ -72,9 +63,18 @@ text-align: center;
   width: 300px;
   border-radius: 25px;
 }
+#input-Email:hover{
+  border: 2px solid rgb(1, 255, 1);
+  transition: 0.9s;
+}
 #input-Senha{
   height: 30px;
   width: 300px;
   border-radius: 25px;
+}
+#input-Senha:hover{
+  border: 2px solid rgb(1, 255, 1);
+  transition: 0.9s;
+  cursor: text;;
 }
 

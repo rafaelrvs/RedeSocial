@@ -1,8 +1,8 @@
 .content-redes-sociais{
   display: flex;
-  margin-top: 35px;
   flex-direction: row;
   justify-content: center;
+  margin-top: 35px;
   align-items: center;
   gap:25px;
   z-index: 2;
@@ -14,6 +14,7 @@
 #imgRedesSociais:hover{
   height: 55px;
   cursor: pointer;
+  transition: 0.9s;
   box-shadow: 10px 10px 10px #21415F ;
 }
 .conteudo-automatico{
@@ -25,3 +26,17 @@
   color:#21415F;
   font-weight: 500;
 }
+
+#google{
+  height: 50px;
+  width: 50px;
+}
+#facebook{
+  height: 50px;
+  width: 50px;
+}
+#linkedin{
+  height: 50px;
+  width: 50px;
+}
+

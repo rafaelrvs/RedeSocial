@@ -1,0 +1,13 @@
+.btn-two-box-in-Login{
+  padding: 15px;
+  width: 200px;
+  background-color: #21415F;
+  border: #fff 2px solid;
+  color: #fff;
+  border-radius: 25px;
+  border: 2px solid #fff;
+}
+.btn-two-box-in-Login:hover{
+ border: 2px solid rgb(1, 255, 1);
+    transition: 0.9s;
+}

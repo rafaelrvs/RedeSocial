@@ -48,7 +48,7 @@
     color:#21415F;
   }
   #redesSociaisCreateAccount{
-
+    display: inline;
     height: 40px;
     border-radius: 50%;
 
@@ -56,6 +56,7 @@
   #redesSociaisCreateAccount:hover{
     height: 55px;
     box-shadow: 10px 10px 10px #21415F ;
+    transition: 0.9s;
 
   }
   #imgRedesSociaisCreateAccount-container{
@@ -65,7 +66,7 @@
   }
 
   .RedesSociais-CreateYourAccount{
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     gap: 30px;
   }
@@ -76,6 +77,15 @@
     color: #fff;
     background-color: #21415F;
     border: 2px solid #fff;
+  }
+  #btnUseYourAccont:hover{
+    padding: 15px;
+    width: 200px;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #21415F;
+    border: 2px solid rgb(1, 255, 1);
+    transition: 0.9s;
   }
 
   #input-createYOurAccount{
@@ -101,6 +111,21 @@
     width: 300px;
     border-radius: 25px;
   }
+  #name-register:hover{
+    border: 2px solid rgb(1, 255, 1);
+    transition: 5s;
+    cursor: text;;
+  }
+  #email-register:hover{
+    border: 2px solid rgb(1, 255, 1);
+    transition: 5s;
+    cursor: text;;
+  }
+  #password-register:hover{
+    border: 2px solid rgb(1, 255, 1);
+    transition: 5s;
+    cursor: text;;
+  }
   #Btn-CreateAccount-Register{
     padding: 15px;
     width: 200px;
@@ -108,4 +133,22 @@
     color: #fff;
     background-color: #21415F;
     border: 2px solid #fff;
+  }
+
+  #google-container{
+    display: inline;
+    height: 60px;
+    width: 50px;
+ 
+  }
+  #linkedin-container{
+    display: inline;
+    height: 60px;
+    width: 50px;
+  }
+  #facebook-container{
+    display: inline;
+ 
+    height: 60px;
+    width: 50px;
   }
