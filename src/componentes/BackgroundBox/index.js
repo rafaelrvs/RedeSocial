@@ -21,7 +21,7 @@ const [apresentarCadastro,setApresentarCadastro ] = useState(false)
           <div className="container-input">
             <input id="input-Email" type="text" placeholder=" Email" />
  
-            <input id="input-Senha" type="password" placeholder=" Password" />
+            <input id="input-Senha" type="password" placeholder=" Password" maxLength={8}/>
           </div>
       </div>
         <nav className='two-box'>

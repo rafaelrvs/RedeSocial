@@ -40,7 +40,7 @@ const CreateYourAccount = () =>{
                 <div id="input-createYOurAccount">
                   <input id="name-register" type="text" placeholder="  Name" />
                   <input id="email-register" type="text" placeholder="  Email" />
-                  <input id="password-register" type="password" placeholder="  Password" />
+                  <input id="password-register" type="password" placeholder="  Password" maxLength={8} />
                   <input  id="Btn-CreateAccount-Register" type="submit" />
                 </div>
             </div>
